@@ -1,0 +1,36 @@
+{
+  "employees": {
+    "1": {
+      "name": "John Doe",
+      "position": "Manager",
+      "salary": 65000
+    },
+    "2": {
+      "name": "Jane Smith",
+      "position": "Developer",
+      "salary": 55000
+    },
+    "3": {
+      "name": "Alice",
+      "position": "HR",
+      "salary": 50000
+    },
+    "6": {
+      "name": "Ayush",
+      "position": "Data Analyst",
+      "salary": 85000
+    },
+    "7": {
+      "name": "Mithuni",
+      "position": "Data Scientist",
+      "salary": 90000
+    }
+  },
+  "nextId": 8,
+  "counterState": {
+    "employees_added_total": 5,
+    "employees_updated_total": 3,
+    "employees_deleted_total": 2,
+    "errors_total": 11
+  }
+}
