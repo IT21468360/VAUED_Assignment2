@@ -13,7 +13,7 @@
     "3": {
       "name": "Alice",
       "position": "HR",
-      "salary": 50000
+      "salary": 65000
     },
     "6": {
       "name": "Ayush",
@@ -24,13 +24,28 @@
       "name": "Mithuni",
       "position": "Data Scientist",
       "salary": 90000
+    },
+    "8": {
+      "name": "Rada",
+      "position": "HR",
+      "salary": 50000
+    },
+    "9": {
+      "name": "Harsha",
+      "position": "DevOps",
+      "salary": 100000
+    },
+    "10": {
+      "name": "Maala",
+      "position": "SE",
+      "salary": 100000
     }
   },
-  "nextId": 8,
+  "nextId": 11,
   "counterState": {
-    "employees_added_total": 5,
-    "employees_updated_total": 3,
+    "employees_added_total": 8,
+    "employees_updated_total": 4,
     "employees_deleted_total": 2,
-    "errors_total": 11
+    "errors_total": 13
   }
 }

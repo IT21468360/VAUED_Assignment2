@@ -10,16 +10,16 @@ Invoke-RestMethod -Uri http://localhost:8000/employees/1 -Method GET
 Invoke-RestMethod -Uri http://localhost:8000/employees `
   -Method POST `
   -Headers @{ "Content-Type" = "application/json" } `
-  -Body '{"name":"Alice","position":"HR","salary":50000}'
+  -Body '{"name":"Maala","position":"SE","salary":100000}'
 
 # PUT Update Employee
-Invoke-RestMethod -Uri http://localhost:8000/employees/1 `
+Invoke-RestMethod -Uri http://localhost:8000/employees/3 `
   -Method PUT `
   -Headers @{ "Content-Type" = "application/json" } `
   -Body '{"salary":65000}'
 
 # DELETE Employee
-Invoke-RestMethod -Uri http://localhost:8000/employees/1 -Method DELETE
+Invoke-RestMethod -Uri http://localhost:8000/employees/4 -Method DELETE
 
 # GET Prometheus Metrics
 Invoke-RestMethod -Uri http://localhost:8000/metrics -Method GET

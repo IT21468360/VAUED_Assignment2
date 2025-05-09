@@ -32,7 +32,7 @@ VAUED_Assignment2/
 ├── prometheus/
 │   └── prometheus.yml          # Prometheus configuration
 ├── grafana/
-│   └── dashboard.json          # Exported Grafana dashboard
+│   └── Employee Dashboard.json         # Exported Grafana dashboard
 ├── docker-compose.yml          # Runs all services together
 └── README.md                   # This file
 
@@ -105,11 +105,11 @@ Or test manually using power shell
 1. Open Grafana at `http://localhost:3000`
 2. Login:
    - Username: `admin`
-   - Password: `vaued`
+   - Password: `admin`
 3. Navigate to: **→ Data Sources**
    - Add Prometheus → URL: `http://prometheus:9090`
 4. Navigate to: ➕ **→ Import**
-   - Upload `grafana/dashboard.json`
+   - Upload `grafana/Employee Dashboard.json`
    - Select Prometheus as the data source
    - Click **Import**
 
@@ -117,7 +117,7 @@ Or test manually using power shell
 
 The system has the following alert rules configured:
 
-- `High Employees Added Rate`: Triggers if additions > 6/min
+- `High Employees Added Rate`: Triggers if additions > 5/min
 - `High Error Count`: Triggers if errors_total > 5
 
 Alerts are visible under **Alerting → Alert Rules** in Grafana. External contact points are optional.
