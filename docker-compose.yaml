@@ -7,15 +7,15 @@ services:
     ports:
       - "8000:8000"
     volumes:
-      - ./app:/app
+      - ./app/data.json:/app/data.json
 
   prometheus:
     image: prom/prometheus
     container_name: prometheus
-    volumes:
-      - ./prometheus/prometheus.yml:/etc/prometheus/prometheus.yml
     ports:
       - "9090:9090"
+    volumes:
+      - ./prometheus/prometheus.yml:/etc/prometheus/prometheus.yml
 
   grafana:
     image: grafana/grafana
