@@ -1,4 +1,4 @@
-# Employee Management System with Prometheus & Grafana Monitoring
+# Employee Management System with Prometheus & Grafana Monitoring.
 
 This project implements a full RESTful Employee Management System in Node.js, with observability using Prometheus and Grafana. It includes API endpoints for CRUD operations and Docker-based deployment for all services.
 
